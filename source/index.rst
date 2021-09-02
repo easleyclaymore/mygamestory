@@ -16,7 +16,14 @@
 
    /章节/第一章 普通青年的奇遇
    /章节/myfile
-   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 资料:
+   :hidden:
+
+   /资料/rst语法
+   /资料/git和sphinx常用命令
    
 
 Indices and tables
