@@ -1,20 +1,17 @@
-# Minimal makefile for Sphinx documentation
-#
+# 我的游戏帝国-小说
+## 上传 GitHub首先在 GitHub 
 
-# You can set these variables from the command line, and also
-# from the environment for the first two.
-SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = source
-BUILDDIR      = build
+上创建一个 mygamestory 仓库。在本地 mygamestory 目录中添加 README.md 和 .gitignore 文件，在 .gitignore 文件中写入下面一行。 build/ 
+表示不跟踪 build 目录，因为我们后面将使用 Read the Docs 进行文档的构建和托管。接着依次执行如下命令即可。 
+ git init
+ git add .
+ git commit -m "first commit"
+ git branch -M main
+ git remote add origin git@github.com:easleyclaymore/mygamestory.git
+ git push -u origin main
 
-# Put it first so that "make" without argument is like "make help".
-help:
-	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+作者：阿基米东
+链接：https://zhuanlan.zhihu.com/p/264647009
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-.PHONY: help Makefile
-
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-%: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
