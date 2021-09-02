@@ -14,8 +14,8 @@
    :caption: 正文:
    :hidden:
 
-   /章节/第一章 普通青年的奇遇.md
-   /章节/myfile.md
+   /章节/第一章 普通青年的奇遇
+   /章节/myfile
    
    
 
