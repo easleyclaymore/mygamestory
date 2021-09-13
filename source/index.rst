@@ -11,15 +11,15 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: 正文:
+   :caption: 正文
    :hidden:
 
-   /章节/第一章 普通青年的奇遇
+   /章节/第一卷 奇遇
    /章节/myfile
 
 .. toctree::
    :maxdepth: 2
-   :caption: 资料:
+   :caption: 资料
    :hidden:
 
    /资料/rst语法
