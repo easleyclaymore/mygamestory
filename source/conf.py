@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = '我的游戏帝国'
-copyright = '2021, 王小林'
-author = '王小林'
+copyright = '2021, Xbox ID 小林儒雅随和'
+author = 'Xbox ID 小林儒雅随和'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'

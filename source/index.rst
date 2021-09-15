@@ -15,7 +15,7 @@
    :hidden:
 
    /章节/第一卷 奇遇
-   /章节/myfile
+   /章节/第二卷 新兴游戏公司
 
 .. toctree::
    :maxdepth: 2
@@ -26,9 +26,4 @@
    /资料/git和sphinx常用命令
    
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
