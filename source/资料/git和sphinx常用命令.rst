@@ -14,7 +14,11 @@ sphinx-autobuild source build/html
 python3 -m pip freeze > requirements.txt
 
 
-参考资料：
+路径：
+cd /Users/alin/Sites/我的游戏帝国
+
+
+建站参考资料：
 
 
 作者：TOMOCAT
