@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '我的游戏帝国'
+project = '我的常用资料'
 copyright = '2024, easleyclaymore'
 author = 'easleyclaymore'
 release = '1990-2098'
@@ -24,5 +24,6 @@ language = 'zh-CN'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
