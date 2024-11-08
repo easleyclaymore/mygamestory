@@ -15,7 +15,7 @@ exclude_patterns = [
     '.DS_Store',
 ]
 extensions = []
-language = 'zh-CN'
+language = 'en'
 master_doc = 'index'
 pygments_style = 'sphinx'
 source_suffix = '.rst'
